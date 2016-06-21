@@ -30,7 +30,7 @@ namespace TestFramework {
 
 int main()
 {
-	TestFramework::Demo* d = new TestFramework::Demo();
+	TestFramework::Demo* instance = new TestFramework::Demo();
 
 	return 0;
 }
