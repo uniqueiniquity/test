@@ -7,9 +7,9 @@ class C {
      * @param a my parameter documentation
      * @param b another parameter documentation
      */
-    constructor(a: string, b: C) { }
+    constructor(private a: string, public b: C) { }
 
     foo(bar:string) {
-        return "baz";
+        return this.b;
     }
 }
